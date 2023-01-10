@@ -8,8 +8,8 @@ const isValid = (str)=>{
         ']' : '['
     }
     const arr=[]
-let counter =0
     for(const char of str){
+        console.log(char,map[char])
         if(!map[char]){
             arr.push(char)
         }
