@@ -11,6 +11,7 @@ return function(...args){
     for(let key in obj){
         const val = obj[key];
         if( typeof val ==="function"){
+            debugger
             obj[key]=val(...args)
         }
         else if(val && typeof val === "object" && !Array.isArray(val)){
