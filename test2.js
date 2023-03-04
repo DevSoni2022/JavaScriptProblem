@@ -10,5 +10,5 @@
     console.log(objA == objB)
     console.log(objA === objB)
 
-}
+}()
 )
