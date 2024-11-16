@@ -1,5 +1,5 @@
 const mapping = {
-  a: ["b", "c"],
+  a: ["b", "ct"],
   b: ["d", "g"],
   d: ["p", "q"],
   l: ["x", "y"],
